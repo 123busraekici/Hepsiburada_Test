@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WebDriverTest {
     public WebDriver driver;
     public String driverName = "webdriver.chrome.driver";
-    public String driverPath = "src/driver/chromedriver.exe";
+    public String driverPath = "src/main/resources/driver/chromedriver.exe";
     public String url = "http://www.hepsiburada.com";
 
     @Before
