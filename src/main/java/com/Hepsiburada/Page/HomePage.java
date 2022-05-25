@@ -14,9 +14,9 @@ public class HomePage extends BasePageUtil {
     public LoginPage callLoginPage() throws InterruptedException {
 
         clickElement(By.xpath("//*[@id=\"myAccount\"]"));
-        Thread.sleep(1000);
-        clickElement(By.xpath("//*[@id=\"login\"]"));
         Thread.sleep(4000);
+        clickElement(By.xpath("//*[@id=\"login\"]"));
+        Thread.sleep(7000);
         Assert.assertTrue("Login sayfası yüklenemedi.", getTitle().contains("Üye Giriş Sayfası"));
         System.out.println("Login sayfası yüklendi.");
 

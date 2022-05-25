@@ -1,4 +1,5 @@
 package com.Hepsiburada.Page;
+
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,13 +15,13 @@ public class LoginPage extends BasePageUtil implements PageContants {
 
     public void login() throws InterruptedException {
 
-        Thread.sleep(2000);
-        sendKey(EMAIL,"mustafaekici0614@gmail.com");
+        Thread.sleep(3000);
+        sendKey(EMAIL, "mustafaekici0614@gmail.com");
         click(LOGIN);
-        Thread.sleep(2000);
-        sendKey(PASSWORD,"Me19038832.");
+        Thread.sleep(5000);
+        sendKey(PASSWORD, "Me19038832.");
         click(LOGINX);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         Assert.assertTrue("Uye girisi yapilamadi", getTitle().contains("Üye Giriş Sayfası"));
         System.out.println("Uye girisi basarili.");

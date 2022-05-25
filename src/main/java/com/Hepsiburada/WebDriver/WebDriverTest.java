@@ -27,8 +27,8 @@ public class WebDriverTest {
         }
     }
 
-   @After
-   public void close() {
-       driver.quit();
-   }
+    @After
+    public void close() {
+        driver.quit();
+    }
 }
