@@ -15,11 +15,11 @@ public class LoginPage extends BasePageUtil implements PageContants {
     public void login() throws InterruptedException {
 
         Thread.sleep(2000);
-        sendKey(By.id("txtUserName"),"mustafaekici0614@gmail.com");
-        click(By.id("btnLogin"));
+        sendKey(EMAIL,"mustafaekici0614@gmail.com");
+        click(LOGIN);
         Thread.sleep(2000);
-        sendKey(By.id("txtPassword"),"Me19038832.");
-        click(By.id("btnEmailSelect"));
+        sendKey(PASSWORD,"Me19038832.");
+        click(LOGINX);
         Thread.sleep(2000);
 
         Assert.assertTrue("Uye girisi yapilamadi", getTitle().contains("Üye Giriş Sayfası"));
