@@ -16,10 +16,10 @@ public class LoginPage extends BasePageUtil implements PageContants {
     public void login() throws InterruptedException {
 
         Thread.sleep(3000);
-        sendKey(EMAIL, "mustafaekici0614@gmail.com");
+        sendKey(EMAIL, "test.busrae@gmail.com");
         click(LOGIN);
         Thread.sleep(5000);
-        sendKey(PASSWORD, "Me19038832.");
+        sendKey(PASSWORD, "123456Ab.");
         click(LOGINX);
         Thread.sleep(5000);
 
